@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>289</width>
+    <height>342</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>9</y>
+     <width>271</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>251</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>249</width>
+       <height>259</height>
+      </rect>
+     </property>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>251</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>100</number>
+      </attribute>
+      <attribute name="horizontalHeaderHighlightSections">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>true</bool>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>АБ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ВГ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ДЕ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ЖЗИЙ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>КЛ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>МН</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ОП</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>РС</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ТУ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ФХ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ЦЧШЩ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ЪЫЬЭ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>ЮЯ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Прочее</string>
+       </property>
+      </row>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>280</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить контакт</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выйти из аккаунта</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
